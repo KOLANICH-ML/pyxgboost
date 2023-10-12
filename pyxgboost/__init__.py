@@ -2,7 +2,9 @@ import ast
 import typing
 from enum import IntEnum
 
-import astor
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-ML/pyxgboost , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
 
 from .kaitai.tree_booster import TreeBooster
 from .kaitai.xgboost import Xgboost

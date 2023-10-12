@@ -6,6 +6,14 @@ pyxgboost [![Unlicensed work](https://raw.githubusercontent.com/unlicense/unlice
 ~~![GitLab Coverage](https://gitlab.com/KOLANICH/pyxgboost/badges/master/coverage.svg)~~
 [![Libraries.io Status](https://img.shields.io/librariesio/github/KOLANICH/pyxgboost.svg)](https://libraries.io/github/KOLANICH/pyxgboost) [![Code style: antiflash](https://img.shields.io/badge/code%20style-antiflash-FFF.svg)](https://codeberg.org/KOLANICH-tools/antiflash.py) 
 
+**We have moved to https://codeberg.org/KOLANICH-ML/pyxgboost, grab new versions there.**
+
+Under the disguise of "better security" Micro$oft-owned GitHub has [discriminated users of 1FA passwords](https://github.blog/2023-03-09-raising-the-bar-for-software-security-github-2fa-begins-march-13/) while having commercial interest in success and wide adoption of [FIDO 1FA specifications](https://fidoalliance.org/specifications/download/) and [Windows Hello implementation](https://support.microsoft.com/en-us/windows/passkeys-in-windows-301c8944-5ea2-452b-9886-97e4d2ef4422) which [it promotes as a replacement for passwords](https://github.blog/2023-07-12-introducing-passwordless-authentication-on-github-com/). It will result in dire consequencies and is competely inacceptable, [read why](https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo).
+
+If you don't want to participate in harming yourself, it is recommended to follow the lead and migrate somewhere away of GitHub and Micro$oft. Here is [the list of alternatives and rationales to do it](https://github.com/orgs/community/discussions/49869). If they delete the discussion, there are certain well-known places where you can get a copy of it. [Read why you should also leave GitHub](https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo).
+
+---
+
 This is a tool for conversion an [`xgboost`](https://github.com/dmlc/xgboost)[![PyPI version](https://badge.fury.io/py/xgboost.svg)](https://pypi.python.org/pypi/xgboost/)[![Build Status](https://github.com/dmlc/xgboost/workflows/XGBoost-CI/badge.svg?branch=master)](https://github.com/dmlc/xgboost/actions)[![docs](https://readthedocs.org/projects/xgboost/badge/?version=latest)](https://xgboost.readthedocs.org)[![Conda version](https://img.shields.io/conda/vn/conda-forge/py-xgboost.svg)](https://anaconda.org/conda-forge/py-xgboost)[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/dmlc/xgboost/badge)](https://api.securityscorecards.dev/projects/github.com/dmlc/xgboost)![License](https://img.shields.io/github/license/dmlc/xgboost.svg) tree into python AST or source.
 
 The parsers residing in [`kaitai` dir](./pyxgboost/kaitai) are generated from [Kaitai Struct](https://github.com/kaitai-io/kaitai_struct) [definitions](https://codeberg.org/KOLANICH-specs/kaitai_struct_formats/tree/xgboost/scientific/data_science/dmlc) and since that have [Apache license](./pyxgboost/kaitai).
